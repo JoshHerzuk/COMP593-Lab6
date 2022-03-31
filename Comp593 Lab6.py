@@ -50,7 +50,7 @@ def get_poke_info(poke_name):
 def poke_name_and_abilities(poke_dict):
     #builds the string that will be posted to pastebin from the pokemon's library
     name = poke_dict['name'] + "'s Abilities."
-    abilities = " "
+    abilities = ""
     for i in poke_dict['abilities']:
         abilities += i['ability']['name'] + '\n'
         
